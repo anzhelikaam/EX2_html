@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Типи елементів та атрибути</title>
+</head>
+<body>
+    <!-- Блокові елементи -->
+    <div id="container" class="main-container">
+        <h1>Заголовок першого рівня</h1>
+        <p>Цей абзац є блоковим елементом і займає всю доступну ширину.</p>
+        
+        <!-- Рядкові елементи всередині блокового -->
+        <p>
+            Цей текст містить <span style="color: red;">рядковий елемент span</span> 
+            і <a href="https://itvdn.com" title="Перейти на сайт ITVDN">посилання на ITVDN</a>.
+        </p>
+        
+        <!-- Зображення з атрибутами -->
+        <img src="pic.jpg" alt="Приклад зображення" width="300" height="200">
+        
+        <!-- Списки -->
+        <h2>Список із глобальними атрибутами</h2>
+        <ul class="my-list" id="skills-list">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+        </ul>
+        
+        <!-- Форма з різними елементами введення -->
+        <form action="#" method="post">
+            <div>
+                <label for="name">Ім'я:</label>
+                <input type="text" id="name" name="name" placeholder="Введіть ваше ім'я">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <button type="submit">Відправити</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
